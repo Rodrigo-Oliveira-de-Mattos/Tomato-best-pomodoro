@@ -1,0 +1,10 @@
+import openModal from "../../scripts/open-modal"
+
+export default function SettingsButton() {
+    return (
+        <div className="settings-button">
+            <button className="gear-button" id="open-button" onClick={openModal}>⚙️</button>
+            {/* colocar um icon */}
+        </div>
+    )
+}
