@@ -1,0 +1,33 @@
+@import "./apply.css";
+@import "./time.css";
+@import "./font.css";
+@import "./color.css";
+@import "./header.css";
+
+h3 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.background-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bcg-page-modal);
+  z-index: 9;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.settings-modal {
+  position: absolute;
+  z-index: 10;
+  background-color: var(--bcg-modal);
+  width: 45rem;
+  border-radius: 2rem;
+  cursor: default;
+}

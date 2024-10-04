@@ -1,0 +1,35 @@
+.settings-modal .settings-modal__font {
+  margin: 0 3rem;
+  align-items: center;
+  padding-bottom: 2rem;
+  display: flex;
+  border-bottom: 1px solid var(--border);
+  justify-content: space-between;
+
+  .options {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--mid-gray);
+
+    .selected {
+      color: var(--light);
+      background-color: var(--dark-blue);
+    }
+  }
+
+  button {
+    background-color: var(--light);
+    border: none;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 100vw;
+    color: var(--mid-gray);
+
+    &:hover {
+      background-color: var(--bcg-hover);
+      color: var(--color-hover);
+    }
+  }
+}

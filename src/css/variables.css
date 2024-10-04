@@ -1,0 +1,15 @@
+#root {
+  --red: #ec6468;
+  --blue: #7ce4fb;
+  --purple: #dd8dff;
+  --dark-blue: #101530;
+
+  --border: #f0eff5;
+  --light: #e3e1e9;
+  --mid-gray: #939298;
+  --color-hover: #4c4e55;
+  --bcg-hover: #b4b3b9;
+  --bcg-hover-red: #ec64691a;
+  --bcg-page-modal: #00000080;
+  --bcg-modal: #fefdff;
+}

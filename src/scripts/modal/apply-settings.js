@@ -1,4 +1,4 @@
-import closeModal from "./close-modal";
+import closeModal from "./close-modal.js";
 
 export default function applySettings() {
     closeModal();

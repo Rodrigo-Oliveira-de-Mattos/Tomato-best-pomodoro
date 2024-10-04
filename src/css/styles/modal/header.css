@@ -1,0 +1,24 @@
+.settings-modal .settings-modal__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+  border-bottom: solid 1px var(--border);
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    width: 3rem;
+    translate: 1rem 0;
+    color: #939298;
+
+    &:hover {
+      color: var(--red);
+      background-color: var(--bcg-hover-red);
+      border-radius: 100vw;
+    }
+  }
+}

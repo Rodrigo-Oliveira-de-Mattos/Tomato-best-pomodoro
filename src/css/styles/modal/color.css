@@ -1,0 +1,39 @@
+.settings-modal .settings-modal__color {
+  margin: 0 3rem;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .options {
+    display: flex;
+    gap: 1rem;
+
+    #red {
+      background-color: var(--red);
+    }
+    #blue {
+      background-color: var(--blue);
+    }
+    #purple {
+      background-color: var(--purple);
+    }
+
+    .selected {
+      display: grid;
+      place-items: center;
+      &::before {
+        content: "x";
+        display: block;
+        font-size: 2rem;
+      }
+    }
+  }
+
+  button {
+    border: none;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 100vw;
+  }
+}

@@ -1,4 +1,4 @@
-import openModal from "../../scripts/open-modal"
+import openModal from "../../scripts/modal/open-modal.js"
 
 export default function SettingsButton() {
     return (
