@@ -2,7 +2,7 @@
   --red: #ec6468;
   --blue: #7ce4fb;
   --purple: #dd8dff;
-  --dark-blue: #101530;
+  --dark-blue: #1E2140;
 
   --border: #f0eff5;
   --light: #e3e1e9;
@@ -12,4 +12,6 @@
   --bcg-hover-red: #ec64691a;
   --bcg-page-modal: #00000080;
   --bcg-modal: #fefdff;
+  --bcg-dark-blue: #151932;
+  --color-dark-blue: #5c6079;
 }

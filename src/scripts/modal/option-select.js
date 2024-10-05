@@ -1,6 +1,7 @@
 export default function optionSelect() {
   const font = document.querySelectorAll(".option-font");
   const color = document.querySelectorAll(".option-color");
+  const status = document.querySelectorAll(".status");
 
   function addClickListener(options) {
     options.forEach((e) => {
@@ -13,4 +14,5 @@ export default function optionSelect() {
 
   addClickListener(font);
   addClickListener(color);
+  addClickListener(status);  
 }

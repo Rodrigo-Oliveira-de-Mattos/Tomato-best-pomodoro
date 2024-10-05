@@ -1,0 +1,25 @@
+.timer-status-container{
+    background-color: var(--bcg-dark-blue);
+    padding: .8rem;
+    border-radius: 100vw;
+}
+
+.timer-status-container button{
+    background-color: transparent;
+    border: none;
+    color: var(--color-dark-blue);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 2rem 3rem;
+    border-radius: 100vw;
+    cursor: pointer;
+
+    &:hover{
+        background-color: var(--dark-blue);
+    }
+
+    &.selected{
+        background-color: var(--red);
+        color: var(--bcg-dark-blue);
+    }
+}
